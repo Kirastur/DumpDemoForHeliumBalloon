@@ -5,10 +5,10 @@ This is a Demo-Plugin for HeliumBalloon to demonstrate how you can create and us
 Install the HeliumBalloon plugin from https://www.spigotmc.org/resources/heliumballoon.95902
 
 To learn how to use dumps, do the following:
-1. Take care that no other plugin using the HeliumBalloon API exists on your server.
+1. Take care that no other plugins using the HeliumBalloon API exists on your server.
 2. Start you minecraft server with default HeliumBalloon configuration.
 3. Enter "balloon dumpconfig" on the console.
-4. Copy the output and append it to this (!) file (the text starts with "HeliumBalloon: {", and ends wit "}").
+4. Copy the output and append it to the Demo-Plugin's congif.yml file (the text starts with "HeliumBalloon: {", and ends wit "}").
 5. Goto HeliumBalloon config and set "loadLocalConfig" to false.
 6. Restart your minecraft server.
 
