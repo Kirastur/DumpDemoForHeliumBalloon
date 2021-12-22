@@ -1,7 +1,8 @@
 # DumpDemoForHeliumBalloon
-API-Demo for HeliumBalloon (Minecraft Plugin)
 
-This is a Demo-Plugin for HeliumBalloon # to demonstrate how you can create and use dumps in HeliumBalloon by using the "balloon dumpconfig" function.
+This is a Demo-Plugin for HeliumBalloon to demonstrate how you can create and use dumps in HeliumBalloon by using the "balloon dumpconfig" function.
+
+Install the HeliumBalloon plugin from https://www.spigotmc.org/resources/heliumballoon.95902
 
 To learn how to use dumps, do the following:
 1. Take care that no other plugin using the HeliumBalloon API exists on your server.
