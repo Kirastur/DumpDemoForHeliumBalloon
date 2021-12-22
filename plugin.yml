@@ -1,0 +1,11 @@
+name: DumpDemoForHeliumBalloon
+version: 1.9
+description: A demo how to create and use dumps in HeliumBalloon
+author: Kirastur
+website: https://github.com/Kirastur/DumpDemoForHeliumBalloon
+
+
+api-version: 1.17
+load: POSTWORLD
+main: de.polarwolf.dumpdemo.Main
+depend: [HeliumBalloon]
