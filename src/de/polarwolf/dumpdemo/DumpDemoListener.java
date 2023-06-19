@@ -1,5 +1,6 @@
 package de.polarwolf.dumpdemo;
 
+import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
@@ -56,12 +57,12 @@ public class DumpDemoListener implements Listener {
 			}
 
 			// Build our Balloon ConfigSection using the standard syntax
-			ConfigSection newSection = event.buildConfigSectionFromFileSection("DumpDemo",
-					plugin.getConfig().getConfigurationSection(SECTION_HELIUMBALLOON));
+			ConfigurationSection fileSection = plugin.getConfig().getConfigurationSection(SECTION_HELIUMBALLOON);
+			ConfigSection newSection = new ConfigSection(plugin.getName(), event.getConfigHelper(), fileSection);
 
 			// Add my new ConfigSection to the list of valid sections
 			event.addSection(newSection);
-			
+
 			plugin.getLogger().info("Your DemoDump was successfull");
 
 		} catch (BalloonException be) {
